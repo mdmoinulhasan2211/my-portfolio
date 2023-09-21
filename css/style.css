@@ -1,0 +1,240 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Home section css code  start */
+#home{
+    background-image: url(../image/pexels-hasan-albari-1229861.jpg);
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+    height: 585px;
+}
+.home-1st-text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 150px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.home-2nd-text{
+    text-align: center;
+    color: rgb(255, 3, 3);
+    position: relative;
+    top: 140px;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.home-3rd-text{
+    text-align: center;
+    color: rgb(255, 251, 251);
+    position: relative;
+    top: 140px;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* Home section css code  end */
+/* about section css code start */
+
+#about{
+    background-image: url(../image/top-banner.png);
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+}
+.about-flex{
+    display: flex;
+}
+.about-img{
+    height: 480px;
+    width: 430px;
+    
+    
+}
+.about-img-div{
+    width: 30%;
+}
+.about-text{
+    position: relative;
+    top: 140px;
+    width: 60%;
+}
+.about-h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.about-h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.about-p{
+    text-align: center;
+
+   
+}
+
+/* color css code */
+
+.red-color{
+    color: red;
+    
+}
+.sky-blue-color{
+    color: #13B7FB;
+}
+/* about section css code end */
+/* service section css code  start 
+.service{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service-pr{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service-flex{
+    display: flex;
+}
+.service-img-1{
+    height: 80px;
+    width: 70px;
+}
+.service-article{
+    padding: 20px;
+   
+    box-shadow: 4px 4px 5px grey;
+}
+*/
+
+.header-flex{
+    display: flex;
+    margin-bottom: 110px;
+   
+   
+    
+}
+.header-item{
+    width: 100%;
+    padding-left: 4%;
+}
+.header-item img{
+    width: 80%;
+   
+}
+.pg-about{
+    position: relative;
+    top: 30px;
+}
+.akashi-color{
+    color: #048BF6;
+}
+.big-font{
+    font-size: 50px;
+}
+.link-button{
+    background-image: linear-gradient(#13B7FB,#048BF6);
+    text-decoration: none;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px gray;
+
+
+}
+.blue-color{
+    color: #13B7FB;
+    
+}
+.gray-color{
+    color: #292c3b;
+}
+.about-section{
+    background-image: url(images/bg-about.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #EBF8FE;
+   
+   
+}
+.about-box{
+    padding: 5%;
+}
+.item-center{
+    text-align: center;
+    
+}
+.box-center{
+    padding: 10px;
+    margin-right: 25%;
+    margin-left: 25%;
+    
+}
+.food-item{
+    margin: 2%;
+    width: 20%;
+    margin-left: 5%;
+   
+   
+    box-shadow: 0.5px 1px 5px rgb(230, 224, 224);
+    border-radius: 12px;
+    text-align: justify;
+    
+}
+.food-item img{
+    border-radius: 15px;
+    padding-top: 12px;
+    width: 230px;
+    
+    
+   
+} 
+.food-item p{
+    padding-right: 12%;
+}
+
+
+/* service section css code  End */
+
+/* Define styles for other sections and content as needed */
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Define styles for smaller screens */
+}
